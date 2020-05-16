@@ -1,10 +1,10 @@
 use std::collections::HashMap;
 
-pub struct TwoSome {}
+pub struct TwoSum {}
 
-impl TwoSome {
+impl TwoSum {
     pub fn new(nums: Vec<i32>, target: i32) -> Vec<i32> {
-        return TwoSome::run(nums, target);
+        return TwoSum::run(nums, target);
     }
 
     fn run(nums: Vec<i32>, target: i32) -> Vec<i32> {

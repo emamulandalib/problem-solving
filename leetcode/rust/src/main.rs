@@ -1,8 +1,8 @@
 mod two_sum;
 
-use crate::two_sum::TwoSome;
+use TwoSum::two_sum::TwoSum;
 
 fn main() {
-    let ts = TwoSome::new(vec![1, 2, 3], 5);
+    let ts = TwoSum::new(vec![1, 2, 3], 5);
     println!("{:?}", ts)
 }
