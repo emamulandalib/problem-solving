@@ -23,7 +23,7 @@ I am solving problems from HackerRank, Leetcode. Sometimes I am using #NodeJS, s
 - [Print the Elements of a Linked List](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list/problem) - Golang
 - [Insert a Node at the Tail of a Linked List](https://www.hackerrank.com/challenges/insert-a-node-at-the-tail-of-a-linked-list/problem) - Javascript
 - [Insert a node at the head of a linked list](https://www.hackerrank.com/challenges/insert-a-node-at-the-head-of-a-linked-list/problem) - Javascript
--[Delete a Node](https://www.hackerrank.com/challenges/delete-a-node-from-a-linked-list/problem) - Javascript
+- [Delete a Node](https://www.hackerrank.com/challenges/delete-a-node-from-a-linked-list/problem) - Javascript
 - [Print in Reverse](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list-in-reverse) - Javascript
 - [Reverse a linked list](https://www.hackerrank.com/challenges/reverse-a-linked-list/problem) - Javascript
 - [Compare two linked lists](https://www.hackerrank.com/challenges/compare-two-linked-lists/problem) - Javascript
