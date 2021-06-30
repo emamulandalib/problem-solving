@@ -11,7 +11,7 @@ import (
 
 // Complete the reverseArray function below.
 func reverseArray(a []int32) []int32 {
-    result := []int32{}
+    var result []int32
 
     for i := len(a) - 1; i >= 0; i-- {
         result = append(result, a[i])
