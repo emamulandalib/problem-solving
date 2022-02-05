@@ -1,8 +1,10 @@
 mod two_sum;
+mod longest_substring;
 
+use crate::longest_substring::length_of_longest_substring;
 use crate::two_sum::TwoSum;
 
 fn main() {
-    let ts = TwoSum::new(vec![1, 2, 3], 5);
-    println!("{:?}", ts)
+    let c = length_of_longest_substring(String::from("pwwkew"));
+    println!("{}", c)
 }
