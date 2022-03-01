@@ -13,9 +13,11 @@ while (a < n)
 }
 Console.WriteLine();
 a = 0;
-while(a < n) {
+while (a < n)
+{
     int b = 0;
-    while (b < a + 1) {
+    while (b < a + 1)
+    {
         Console.Write("*");
         b++;
     }
@@ -43,14 +45,17 @@ while (a < n)
 }
 Console.WriteLine();
 a = 0;
-while (a < n) {
+while (a < n)
+{
     int b = a + 1;
-    while (b < n) {
+    while (b < n)
+    {
         Console.Write(" ");
         b++;
     }
     b = 0;
-    while (b < a + 1) {
+    while (b < a + 1)
+    {
         Console.Write("*");
         b++;
     }
