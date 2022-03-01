@@ -24,7 +24,7 @@ func matchingStrings(strings []string, queries []string) []int32 {
 	return result
 }
 
-func main() {
+func sparse_arrays() {
 	reader := bufio.NewReaderSize(os.Stdin, 1024*1024)
 
 	stdout, err := os.Create(os.Getenv("OUTPUT_PATH"))

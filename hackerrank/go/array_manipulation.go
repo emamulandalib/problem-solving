@@ -42,7 +42,7 @@ func arrayManipulation(n int32, queries [][]int32) int64 {
 	return result
 }
 
-func main() {
+func ok1() {
 	reader := bufio.NewReaderSize(os.Stdin, 1024*1024)
 
 	stdout, err := os.Create(os.Getenv("OUTPUT_PATH"))

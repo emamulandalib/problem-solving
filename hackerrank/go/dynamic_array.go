@@ -40,7 +40,7 @@ func dynamicArray(n int32, queries [][]int32) []int32 {
 	return result
 }
 
-func main() {
+func ok3() {
 	reader := bufio.NewReaderSize(os.Stdin, 16*1024*1024)
 
 	stdout, err := os.Create(os.Getenv("OUTPUT_PATH"))

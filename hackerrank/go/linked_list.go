@@ -20,7 +20,3 @@ func TestLinkedLIst() {
 	l.Remove(el)
 	fmt.Println(l.Front().Value)
 }
-
-func main() {
-	TestLinkedLIst()
-}

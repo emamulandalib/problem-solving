@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-func main() {
+func LeftRotation() {
 	reader := bufio.NewReaderSize(os.Stdin, 1024*1024)
 
 	nd := strings.Split(readLine(reader), " ")
