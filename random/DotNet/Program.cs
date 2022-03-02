@@ -62,3 +62,12 @@ while (a < n)
     Console.WriteLine();
     a++;
 }
+
+Console.WriteLine();
+
+var nums = new int[]{1,2,3,4,7};
+nums.Skip(1).Take(3).ToList().ForEach(n => Console.WriteLine(n));
+Console.WriteLine();
+nums.ToList().GetRange(1, 3).ForEach(n => Console.WriteLine(n));
+Console.WriteLine();
+nums[1..4].ToList().ForEach(n => Console.WriteLine(n));
