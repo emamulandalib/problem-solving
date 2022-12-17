@@ -3,9 +3,58 @@ package main
 import "fmt"
 
 func main() {
-	//unsorted := []int{10, 6, 2, 1, 5, 8, 3, 4, 7, 9}
-	a := BinarySearch([]int{3, 4, 6, 7}, 9)
+	// TestHeap()
+	TestMedianFinder()
+}
 
-	fmt.Println(a)
-	// sorted = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+func TestMedianFinder() {
+	f := MedianFinder{}
+	nums := []int{-1, -2, -3, -4}
+	for _, n := range nums {
+		f.AddNum(n)
+		fmt.Println(f.FindMedian())
+		fmt.Println()
+	}
+	f.Display()
+}
+
+func TestHeap() {
+	h := NewHeap()
+	nums := []int{-1, -2, -3, -4}
+	for _, n := range nums {
+		h.InsertMax(n)
+	}
+	h.SortAsc()
+	h.Display()
+}
+
+func TestQueueUsingLinkedList() {
+	q := NewQueueUsingLinkedList(10)
+
+	for i := 1; i <= 20 && !q.IsFull(); i++ {
+		_ = q.Enqueue(i)
+	}
+
+	fmt.Println(q.IsFull())
+	fmt.Println(q.Peek())
+
+	for !q.IsEmpty() {
+		d, _ := q.Dequeue()
+		fmt.Println(d)
+	}
+}
+
+func TestQueue() {
+	q := NewQueue(11)
+
+	for i := 1; i <= 10 && !q.IsFull(); i++ {
+		q.Enqueue(i)
+	}
+
+	for !q.IsEmpty() {
+		n, _ := q.Dequeue()
+		fmt.Println(n)
+	}
+
+	fmt.Println(q.IsFull())
 }

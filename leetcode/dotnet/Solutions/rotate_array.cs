@@ -1,4 +1,4 @@
-namespace RotateArray;
+namespace LeetCodeDotnet.Solutions;
 
 public class Solution
 {
